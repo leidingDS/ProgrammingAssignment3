@@ -91,15 +91,15 @@ Since there are 6 activties, 30 subjects, and 66 variables that are valid for me
 
 1. Read the data
 
-1.1 The actual data is in the file X_test/train.txt. They are saved in testData (2947 x 561) and trainData (7352 x 561).
+ The actual data is in the file X_test/train.txt. They are saved in testData (2947 x 561) and trainData (7352 x 561).
 
-1.2 For each data set (test/train), file y_test/train.txt contains the activity ID for each observation. They are saved in testLable (2947 x 1) and trainLabel (7352 x 1). 
+ For each data set (test/train), file y_test/train.txt contains the activity ID for each observation. They are saved in testLable (2947 x 1) and trainLabel (7352 x 1). 
 
-1.3 For each data set (test/train), file subject_test/train.txt contains the ID of subjects. They are saved in testSubject (2947 x 1) and trainSubject (7352 x 1). 
+ For each data set (test/train), file subject_test/train.txt contains the ID of subjects. They are saved in testSubject (2947 x 1) and trainSubject (7352 x 1). 
 
-1.4 Avtivity name look up tables is in file activity_labels.txt. It is saved in activityName (6 x 2).
+ Avtivity name look up tables is in file activity_labels.txt. It is saved in activityName (6 x 2).
 
-1.5 Feature names (i.e Label Names) is in file features.txt. It is saved in features. (561 x 2)
+ Feature names (i.e Label Names) is in file features.txt. It is saved in features. (561 x 2)
 
 2. Merge the training data and test data sets to create a new data set using rbind(): data (10299 x 561)
 
